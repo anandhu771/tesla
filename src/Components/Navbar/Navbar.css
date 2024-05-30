@@ -29,10 +29,19 @@
   }
   
   .nav-links a {
+    width: max-content;
+    padding: 5px 10px;
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
+    border-radius: 3px;
   }
+  .nav-links a:hover{
+    background-color: gainsboro;
+    color: #353535;
+    font-weight: 600;
+  }
+
 
   .nav-icons{
     display: flex;

@@ -1,0 +1,29 @@
+.video-container{
+    width: 80%;
+    margin: 10vh 10%;
+    height: 80dvh;
+    position: relative;
+}
+.video-container::before,.video-container:after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px double var(--gray-color);
+  
+}
+.video-container::before{
+    top: -20px;
+    left: -20px;
+    z-index: 10;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.video-container::after{
+    bottom: -40px;
+    right: -20px;
+    z-index: 10;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}

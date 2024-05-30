@@ -18,8 +18,12 @@ code {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar{
   display: none;
+}
+:root{
+  --gray-color:#999;
 }

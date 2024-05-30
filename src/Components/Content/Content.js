@@ -3,7 +3,7 @@ import "./Content.css";
 import Navbar from "../Navbar/Navbar";
 function Content(props) {
   return (
-    <div className="content-wrap"  style={{"backgroundImage":`url(${props.imgUrl})`}}>
+    <div className="content-wrap"  style={{"backgroundImage":`url(${props.imgUrl})`,"backgroundAttachment":`${props.backgroundAttachment}`}}>
       <div className="car-description">
       {/* <div className="title">Cyber Truck</div> */}
       <div className="sub-title" style={{"textAlign":`${props.textalign}`}} >

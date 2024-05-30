@@ -1,0 +1,13 @@
+.card{
+   /* background-color: brown; */
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 100px 30px;
+}
+.card>div{
+    height: 400px;
+}
