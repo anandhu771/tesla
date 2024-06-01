@@ -2,7 +2,6 @@ import React from 'react'
 import './ModelCard.css'
 import cardimgcybertruck from "../../Assets/card-img-Cybertruck-1x.avif"
 function ModelCard({name,price,range,imageUrl}) {
-  console.log(imageUrl);
 
   return (
     <div className='model-card'>
