@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import "./Vehicles.css";
 import ModelCard from "../ModelListCard/ModelCard";
 import { carList } from "../../Constents/carlist";
+import CarDetails from "../CarDetails/CarDetails";
 function Vehicles() {
   const [models, setModels] = useState(carList);
-  const [allModels, setAllModels] = useState(carList)
+  const [allModels, setAllModels] = useState(carList);
+  const navigate = useNavigate();
 
   const searchHandler = (e) =>{
     const value = e.target.value.toLowerCase()
@@ -13,7 +16,13 @@ function Vehicles() {
     })
     setModels(filteredModels);
   }
-  
+
+
+
+  function goToViewDetailPage(car){
+    navigate(`/deatilView/${car?.id}`);
+  }
+
   return (
     <div className="vehicles-wrap">
       <div className="input">
@@ -21,8 +30,9 @@ function Vehicles() {
       </div>
       <div className="card">
         {models.map((car) => (
-          <div key={car.id}>
+          <div key={car.id}  onClick={()=>goToViewDetailPage(car)}>
             <ModelCard
+              id={car.id}
               name={car.name}
               price={car.price}
               range={car.range}
@@ -38,6 +48,7 @@ function Vehicles() {
           </div>
         ))}
       </div>
+
     </div>
   );
 }

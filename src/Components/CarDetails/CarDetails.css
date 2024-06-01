@@ -1,0 +1,12 @@
+
+.detail-wrap{
+    min-height:calc(100vh - 60px);
+    height: auto;
+    /* background-color: red; */
+    
+}
+
+.detail-wrap>h1{
+    color: #fff;
+    padding: 100px;
+}

@@ -3,7 +3,26 @@ import cardimgmodelx from "../Assets/card-img-Model-X.avif"
 import cardimgmodely from "../Assets/card-img-Model-Y.avif"
 import cardimgmodels from "../Assets/card-img-models.avif"
 import cardimgmodels3 from "../Assets/card-img-models3.avif"
-import cardimgcars from "../Assets/card-img-cars.avif"
+import modelsRed from "../Assets/model-s-red.webp"
+import modelsBlue from "../Assets/model-s-blue.webp"
+import modelsGray from "../Assets/model-s-gray.webp"
+import modelsWhite from "../Assets/model-s-white.webp"
+import modelsBlack from "../Assets/model-s-black.webp"
+import model3Black from "../Assets/model-3-black.webp"
+import model3Gray from "../Assets/model-3-gray.webp"
+import model3White from "../Assets/model-3-white.webp"
+import model3Red from "../Assets/model-3-red.webp"
+import model3Blue from "../Assets/model-3-blue.webp"
+import modelxBlack from "../Assets/model-x-black.webp"
+import modelxBlue from "../Assets/model-x-blue.webp"
+import modelxGray from "../Assets/model-x-gray.webp"
+import modelxRed from "../Assets/model-x-red.webp"
+import modelxWhite from "../Assets/model-x-white.webp"
+import modelsplaidheroimg from "../Assets/model-splaid-heroimg.jpg"
+import model3heroimg2 from "../Assets/model-3-heroimg.jpeg"
+import modelxheroimg from "../Assets/model-x-heroimg.jpg"
+import modelyheroimg from "../Assets/model-y-heroimg.webp"
+import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
 
 
 
@@ -20,7 +39,39 @@ import cardimgcars from "../Assets/card-img-cars.avif"
       "dimensions": "196″ L x 77″ W x 57″ H",
       "motor_spec": "Tri Motor All-Wheel Drive",
       "battery_life": "100 kWh",
-      "driving_mode": "Ludicrous Mode"
+      "driving_mode": "Ludicrous Mode",
+      "heroimg":modelsplaidheroimg,
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":modelsRed,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":modelsBlue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":modelsGray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":modelsWhite,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":modelsBlack,
+        "colorCode":"black"
+      },
+    ]
     },
     {
       "id": 2,
@@ -34,7 +85,39 @@ import cardimgcars from "../Assets/card-img-cars.avif"
       "dimensions": "185″ L x 73″ W x 57″ H",
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "75 kWh",
-      "driving_mode": "Sport Mode"
+      "driving_mode": "Sport Mode",
+      "heroimg":model3heroimg2,
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":model3Red,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":model3Blue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":model3Gray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":model3White,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":model3Black,
+        "colorCode":"black"
+      },
+    ]
     },
     {
       "id": 3,
@@ -48,7 +131,39 @@ import cardimgcars from "../Assets/card-img-cars.avif"
       "dimensions": "198″ L x 79″ W x 66″ H",
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "100 kWh",
-      "driving_mode": "Ludicrous Mode"
+      "driving_mode": "Ludicrous Mode",
+      "heroimg":modelxheroimg,
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":modelxRed,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":modelxBlue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":modelxGray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":modelxWhite,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":modelxBlack,
+        "colorCode":"black"
+      },
+    ]
     },
     {
       "id": 4,
@@ -62,11 +177,12 @@ import cardimgcars from "../Assets/card-img-cars.avif"
       "dimensions": "187″ L x 75″ W x 64″ H",
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "75 kWh",
-      "driving_mode": "Off-Road Assist"
+      "driving_mode": "Off-Road Assist",
+      "heroimg":modelyheroimg,
     },
     {
       "id": 5,
-      "name": "  Cybertruck",
+      "name": "  Cyber Truck",
       "price": "$69,900",
       "range": "500 miles",
       "description": "A futuristic electric truck with unparalleled durability and performance.",
@@ -76,7 +192,8 @@ import cardimgcars from "../Assets/card-img-cars.avif"
       "dimensions": "231″ L x 79″ W x 75″ H",
       "motor_spec": "Tri Motor All-Wheel Drive",
       "battery_life": "200 kWh",
-      "driving_mode": "Adaptive Air Suspension"
+      "driving_mode": "Adaptive Air Suspension",
+      "heroimg":cybertruckheroimg,
     },
     {
       "id": 6,
@@ -121,3 +238,4 @@ import cardimgcars from "../Assets/card-img-cars.avif"
       "driving_mode": "Enhanced Autopilot"
     }
   ]
+
