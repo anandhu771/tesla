@@ -179,6 +179,37 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "battery_life": "75 kWh",
       "driving_mode": "Off-Road Assist",
       "heroimg":modelyheroimg,
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":modelxRed,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":modelxBlue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":modelxGray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":modelxWhite,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":modelxBlack,
+        "colorCode":"black"
+      },
+    ]
     },
     {
       "id": 5,
@@ -194,6 +225,7 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "battery_life": "200 kWh",
       "driving_mode": "Adaptive Air Suspension",
       "heroimg":cybertruckheroimg,
+      "colorOptions":[{}]
     },
     {
       "id": 6,
@@ -207,7 +239,38 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "dimensions": "185″ L x 77″ W x 44″ H",
       "motor_spec": "Tri Motor All-Wheel Drive",
       "battery_life": "200 kWh",
-      "driving_mode": "Plaid Mode"
+      "driving_mode": "Plaid Mode",
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":modelxRed,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":modelxBlue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":modelxGray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":modelxWhite,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":modelxBlack,
+        "colorCode":"black"
+      },
+    ]
     },
     {
       "id": 7,
@@ -221,7 +284,38 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "dimensions": "196″ L x 77″ W x 57″ H",
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "100 kWh",
-      "driving_mode": "Chill Mode"
+      "driving_mode": "Chill Mode",
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":modelxRed,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":modelxBlue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":modelxGray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":modelxWhite,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":modelxBlack,
+        "colorCode":"black"
+      },
+    ]
     },
     {
       "id": 8,
@@ -235,7 +329,38 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "dimensions": "N/A",
       "motor_spec": "Quad Motor All-Wheel Drive",
       "battery_life": "N/A",
-      "driving_mode": "Enhanced Autopilot"
+      "driving_mode": "Enhanced Autopilot",
+      "colorOptions":[{
+        "id":0,
+        "name":"Blood Red",
+        "colorUrl":modelxRed,
+        "colorCode":"red"
+      },
+      {
+        "id":1,
+        "name":"Sea Blue",
+        "colorUrl":modelxBlue,
+        "colorCode":"blue"
+      },
+      {
+        "id":2,
+        "name":"Ash Gray",
+        "colorUrl":modelxGray,
+        "colorCode":"gray"
+      },
+      {
+        "id":3,
+        "name":"Pease White",
+        "colorUrl":modelxWhite,
+        "colorCode":"white"
+      },
+      {
+        "id":4,
+        "name":"Black Cat",
+        "colorUrl":modelxBlack,
+        "colorCode":"black"
+      },
+    ]
     }
   ]
 

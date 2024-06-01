@@ -14,7 +14,7 @@
     
   }
   
-  .logo a {
+  .logo {
     text-decoration: none;
     color: #fff;
     font-size: 28px;
@@ -28,7 +28,7 @@
     gap: 20px;
   }
   
-  .nav-links a {
+  .nav-links li {
     width: max-content;
     padding: 5px 10px;
     text-decoration: none;
@@ -36,7 +36,7 @@
     font-size: 16px;
     border-radius: 3px;
   }
-  .nav-links a:hover{
+  .nav-links  :hover{
     background-color: gainsboro;
     color: #353535;
     font-weight: 600;
@@ -58,7 +58,7 @@
   }
   
 
-  .logo a {
+  .logo  {
     font-size: 14px;
   }
   }

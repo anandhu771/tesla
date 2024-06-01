@@ -9,12 +9,12 @@ function Navbar() {
   return (
     <div>
         <nav class="navbar">
-        <div class="logo"><a href="#">T E S L A</a></div>
+        <div class="logo"><Link to="/">T E S L A</Link></div>
         <ul class="nav-links">
-          <li><a href="#"><Link to="/models-listing">Vehicles</Link> </a></li>
-          <li><a href="#"><Link >Energy</Link> </a></li>
-          <li><a href="#"><Link >Charging</Link> </a></li>
-          <li><a href="#"><Link >Shop</Link> </a></li>
+          <li><Link to="/models-listing">Vehicles</Link></li>
+          <li><Link >Energy</Link></li>
+          <li><Link >Charging</Link></li>
+          <li><Link >Shop</Link></li>
           {/* <li><a href="#solar-roof">Solar Roof</a></li>
           <li><a href="#solar-panels">Solar Panels</a></li> */}
         </ul>

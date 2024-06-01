@@ -48,7 +48,6 @@ function Vehicles() {
           </div>
         ))}
       </div>
-
     </div>
   );
 }

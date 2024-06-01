@@ -3,9 +3,11 @@ import './CarDetails.css'
 import { useParams } from 'react-router-dom'
 import { carList } from '../../Constents/carlist'
 import HeroSection from './HeroSection'
+import ColorChange from '../ColorChange/ColorChange'
 
 function CarDetails() {
   const [car, setCar] = useState([]);
+  const [carColors,setCarColors] = useState([{}])
   const [heroDetails, setHeroDetails] = useState({
     carName:'',
     carPrice:"",
@@ -19,10 +21,10 @@ function CarDetails() {
 
   useEffect(()=>{
     window.scrollTo(0,0)
-    const carData = carList.filter((car)=>{
-      return car.id == id ? car : null 
+    const carData = carList.filter((item)=>{
+      return item.id == id ? item : null 
     })
-    setCar(carData);
+    // console.log("carcolorrr",carData[0].colorOptions);
     setHeroDetails({
       carName:carData[0].name,
       carPrice:carData[0].price,
@@ -31,13 +33,15 @@ function CarDetails() {
       carRange:carData[0].range,
       heroimg:carData[0].heroimg 
     })
-    
+    setCarColors(carData[0].colorOptions);
+
 
   },[])
 
   return (
     <div className='detail-wrap'>
         <HeroSection details={heroDetails} />
+        <ColorChange colorOptions={carColors} />
     </div>
   )
 }

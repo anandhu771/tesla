@@ -5,7 +5,6 @@ import { GiTakeMyMoney } from "react-icons/gi";
 import { FaChargingStation } from "react-icons/fa6";
 import { GiPathDistance } from "react-icons/gi";
 function HeroSection({details}) {
-    console.log("hero detail",details);
   return (
     <div className='hero-section-wrap' style={{'backgroundImage':`linear-gradient(to right,black,transparent,transparent,black),URL(${details.heroimg})`}}>
         <div className='car-name'>
