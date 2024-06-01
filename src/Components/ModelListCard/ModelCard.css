@@ -1,5 +1,120 @@
 .model-card{
-    background-color: yellow;
-    height: 400px;
+    background:radial-gradient(circle at 50% 50%,#202020,#000);
+    aspect-ratio: 1;
+    position: relative;
+}
+
+
+
+.model-card::before,.model-card:after{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 1px solid #999;
+    border-radius: 30px;
+    transition: all .2s linear;
+}
+
+
+
+.model-card::before{
+    border-color: transparent;
+
+}
+
+
+
+.model-card::after{
+    border-color: transparent;
+
+}
+
+.model-card:hover::before{
+
+    height: calc(100% + 40px);
+    top: -20px;
+    border-radius: 0px;
+    border-inline-color: #999;
+
+}
+
+.model-card:hover::after{
+
+    width: calc(100% + 40px);
+    left: -20px;
+    border-radius: 0px;
+    border-block-color: #999;
+
+}
+
+
+.card-img{
+
+    height: 100%;
+    width: auto;
+    /* background: url(../../Assets/card-img-Cybertruck-1x.avif); */
+    background-size:250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s ease-out;
+
     
+}
+.content{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .model-name{
+    color: #000;
+    font-weight: 600;
+    font-size: large;
+    background: #999;
+    width: 50%;
+    padding: 10px 20px;
+    clip-path: polygon(0% 10px,10% 0%, 100% 0%,100% calc(100% - 10px),90% 100%,0% 100% );
+    transform: translateX(-600px);
+    transform-origin: top center;
+    transition: all .5s ease-out;
+    
+}
+.content .model-price{
+    color: #ffff;
+    font-size: medium;
+    padding: 10px;
+    transform: translateX(300px);
+    transition: all .5s ease-in;
+}
+
+.content .model-range{
+    color: #999;
+    font-size: small;
+    transform: rotateX(90deg);
+    transition: all .3s ease-in;
+}
+
+
+.model-card:hover>.content>.model-name{
+    transform: translateX(0px);
+}
+.model-card:hover>.content>.model-price {
+    transform: translateX(0px);
+}
+.model-card:hover>.content>.model-range{
+    transform: rotateX(0deg);
+}
+
+.model-card:hover>.card-img{
+    /* background-position: top center; */
+    background-size: 300px;
 }

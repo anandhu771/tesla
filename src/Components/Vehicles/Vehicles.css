@@ -5,9 +5,14 @@
     height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    gap: 40px;
     padding: 100px 30px;
 }
-.card>div{
-    height: 400px;
+.card>div:has(~ div:hover){
+    filter: brightness(.7);
+}
+
+.card>div:hover ~ div{
+    filter: brightness(.7);
+
 }
