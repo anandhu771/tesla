@@ -1,6 +1,5 @@
 import React from "react";
 import "./Content.css";
-import Navbar from "../Navbar/Navbar";
 function Content(props) {
   return (
     <div className="content-wrap"  style={{"backgroundImage":`url(${props.imgUrl})`,"backgroundAttachment":`${props.backgroundAttachment}`}}>

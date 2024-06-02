@@ -8,9 +8,9 @@ import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <div>
-        <nav class="navbar">
-        <div class="logo"><Link to="/">T E S L A</Link></div>
-        <ul class="nav-links">
+        <nav className="navbar">
+        <div className="logo"><Link to="/">T E S L A</Link></div>
+        <ul className="nav-links">
           <li><Link to="/models-listing">Vehicles</Link></li>
           <li><Link >Energy</Link></li>
           <li><Link >Charging</Link></li>
@@ -24,12 +24,12 @@ function Navbar() {
         <GoQuestion />
         </div>
       </nav>
-      {/* <div class="hero-content">
+      {/* <div className="hero-content">
         <h1>Model 3</h1>
         <p>Order Online for Touchless Delivery</p>
-        <div class="hero-buttons">
-          <a href="#" class="button">Custom Order</a>
-          <a href="#" class="button">Existing Inventory</a>
+        <div className="hero-buttons">
+          <a href="#" className="button">Custom Order</a>
+          <a href="#" className="button">Existing Inventory</a>
         </div>
       </div> */}
     </div>

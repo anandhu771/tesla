@@ -10,11 +10,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #050505; */
-  background: url("https://images.pexels.com/photos/18372324/pexels-photo-18372324/free-photo-of-dark-grey-abstract-texture.jpeg");
+  background: linear-gradient(#000b,#000b), url("https://images.pexels.com/photos/18372324/pexels-photo-18372324/free-photo-of-dark-grey-abstract-texture.jpeg");
 background-size: contain;
 background-repeat: repeat;
-backdrop-filter: brightness(.2);
+overflow: scroll;
+
 }
 
 code {

@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-      <ul class="footer-links">
+      <ul className="footer-links">
           <li><a href="#model-s">Tesla @ 2024</a></li>
           <li><a href="#model-3">Privacy & Legal</a></li>
           <li><a href="#model-x">Vehicle Recalls</a></li>
