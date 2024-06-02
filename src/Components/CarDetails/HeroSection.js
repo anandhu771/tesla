@@ -11,10 +11,10 @@ function HeroSection({details}) {
             {details.carName}
         </div>
         <div className='car-content'>
-            <div className='icon-pack'><GiTakeMyMoney size="40px"/>{details.carPrice}</div>
-            <div className='icon-pack'><IoMdSpeedometer size="40px" />{details.carSpeed}</div>
-            <div className='icon-pack'><GiPathDistance size="40px"/>{details.carRange}</div>
-            <div className='icon-pack'><FaChargingStation size="40px"/>{details.carMilege}</div>
+            <div className='icon-pack'><GiTakeMyMoney className='svg' />{details.carPrice}</div>
+            <div className='icon-pack'><IoMdSpeedometer className='svg'  />{details.carSpeed}</div>
+            <div className='icon-pack'><GiPathDistance className='svg' />{details.carRange}</div>
+            <div className='icon-pack'><FaChargingStation className='svg' />{details.carMilege}</div>
         </div>
     </div>
   )

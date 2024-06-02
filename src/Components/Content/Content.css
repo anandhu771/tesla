@@ -37,6 +37,7 @@
 
 
 .sub-title{
+    word-break: break-all;
     position: absolute;
     bottom: 8dvh;
     left: 0;

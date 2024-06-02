@@ -3,6 +3,8 @@
     height: 100vh;
     position: relative;
     background-size: cover;
+    background-position: center;
+   
 
 }
 .color-picker{
@@ -27,4 +29,40 @@
     aspect-ratio: 1;
     color: aliceblue;
    border:1px solid white;
+}
+
+
+@media (max-width:760px){
+
+
+    .color-options-wrap{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    
+    }
+
+
+    .color-picker{
+       
+        /* background-color: cyan; */
+        width: 100%;
+        height: max-content;
+        position: absolute;
+        top: unset;
+        bottom: 20vh;
+        left: 0px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    
+        
+    }
 }

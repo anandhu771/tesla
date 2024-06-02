@@ -23,6 +23,13 @@ import model3heroimg2 from "../Assets/model-3-heroimg.jpeg"
 import modelxheroimg from "../Assets/model-x-heroimg.jpg"
 import modelyheroimg from "../Assets/model-y-heroimg.webp"
 import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
+import interiormodely from "../Assets/interior-model-y.jpeg"
+import interiormodel3 from "../Assets/interior-model-3.jpeg"
+import interiormodels from "../Assets/interior-model-s.jpeg"
+import interiorcybertruck from "../Assets/interior-cybertruck.avif"
+import interiormodelx from "../Assets/interior-model-x.jpeg"
+
+
 
 
 
@@ -40,6 +47,8 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Tri Motor All-Wheel Drive",
       "battery_life": "100 kWh",
       "driving_mode": "Ludicrous Mode",
+      "interior": interiormodels,
+      "video_link":"https://www.tesla.com/sites/default/files/videos/Plaid-Range-Web-Desktop-8mb.mp4",
       "heroimg":modelsplaidheroimg,
       "colorOptions":[{
         "id":0,
@@ -86,6 +95,8 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "75 kWh",
       "driving_mode": "Sport Mode",
+      "interior": interiormodel3,
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-X-Interior-Carousel-4-Spacious-Cabin-Desktop.mp4",
       "heroimg":model3heroimg2,
       "colorOptions":[{
         "id":0,
@@ -132,6 +143,8 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "100 kWh",
       "driving_mode": "Ludicrous Mode",
+      "interior": interiormodelx,
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-X-Interior-Carousel-1-Cinematic-Display-Desktop-Global.mp4",
       "heroimg":modelxheroimg,
       "colorOptions":[{
         "id":0,
@@ -178,6 +191,8 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "75 kWh",
       "driving_mode": "Off-Road Assist",
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Model-Y-Charge-Deskop.mp4",
+      "interior": interiormodely,
       "heroimg":modelyheroimg,
       "colorOptions":[{
         "id":0,
@@ -224,6 +239,8 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Tri Motor All-Wheel Drive",
       "battery_life": "200 kWh",
       "driving_mode": "Adaptive Air Suspension",
+      "interior": interiorcybertruck,
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/Cybertruck-Beyond-Prepared-Desktop.mp4 ",
       "heroimg":cybertruckheroimg,
       "colorOptions":[{}]
     },
@@ -240,6 +257,7 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Tri Motor All-Wheel Drive",
       "battery_life": "200 kWh",
       "driving_mode": "Plaid Mode",
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-X-Interior-Carousel-4-Spacious-Cabin-Desktop.mp4",
       "colorOptions":[{
         "id":0,
         "name":"Blood Red",
@@ -285,6 +303,7 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Dual Motor All-Wheel Drive",
       "battery_life": "100 kWh",
       "driving_mode": "Chill Mode",
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-X-Interior-Carousel-1-Cinematic-Display-Desktop-Global.mp4",
       "colorOptions":[{
         "id":0,
         "name":"Blood Red",
@@ -330,6 +349,7 @@ import cybertruckheroimg from "../Assets/cybertruck-heroimg.avif"
       "motor_spec": "Quad Motor All-Wheel Drive",
       "battery_life": "N/A",
       "driving_mode": "Enhanced Autopilot",
+      "video_link":"https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-X-Interior-Carousel-1-Cinematic-Display-Desktop-Global.mp4",
       "colorOptions":[{
         "id":0,
         "name":"Blood Red",

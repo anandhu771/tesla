@@ -1,11 +1,12 @@
 import React from "react";
 import './VideoContainer.css'
-function VideoContainer() {
+function VideoContainer({videoLink}) {
+  // console.log(video);
   return (
     <div className="video-container">
       <video autoPlay muted width="100%" loop>
         <source
-          src="https://digitalassets.tesla.com/tesla-contents/video/upload/Cybertruck-Beyond-Prepared-Desktop.mp4"
+          src= {videoLink}
           type="video/mp4"
         ></source>
       </video>

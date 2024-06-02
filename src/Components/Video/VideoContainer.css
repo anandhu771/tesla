@@ -1,15 +1,16 @@
 .video-container{
     width: 80%;
     margin: 10vh 10%;
-    height: 80dvh;
+    height: auto;
     position: relative;
+    margin-bottom: 150px;
 }
 .video-container::before,.video-container:after{
     content: '';
     position: absolute;
-    width: 200px;
-    height: 200px;
-    border: 3px double var(--gray-color);
+    width: clamp(100px,250px,40%);
+    aspect-ratio: 1;
+    border: 2px solid var(--gray-color);
   
 }
 .video-container::before{
@@ -21,7 +22,7 @@
 }
 
 .video-container::after{
-    bottom: -40px;
+    bottom: -20px;
     right: -20px;
     z-index: 10;
     border-left-color: transparent;

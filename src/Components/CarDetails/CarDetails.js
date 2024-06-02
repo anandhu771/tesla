@@ -4,10 +4,14 @@ import { useParams } from 'react-router-dom'
 import { carList } from '../../Constents/carlist'
 import HeroSection from './HeroSection'
 import ColorChange from '../ColorChange/ColorChange'
+import Interior from '../Interior/Interior'
+import VideoContainer from '../Video/VideoContainer'
 
 function CarDetails() {
-  const [car, setCar] = useState([]);
-  const [carColors,setCarColors] = useState([{}])
+
+  const [carColors,setCarColors] = useState([{}]);
+  const [interior,setInterior] = useState('')
+  const [video, setVideo] = useState('')
   const [heroDetails, setHeroDetails] = useState({
     carName:'',
     carPrice:"",
@@ -24,7 +28,6 @@ function CarDetails() {
     const carData = carList.filter((item)=>{
       return item.id == id ? item : null 
     })
-    // console.log("carcolorrr",carData[0].colorOptions);
     setHeroDetails({
       carName:carData[0].name,
       carPrice:carData[0].price,
@@ -34,6 +37,8 @@ function CarDetails() {
       heroimg:carData[0].heroimg 
     })
     setCarColors(carData[0].colorOptions);
+    setInterior(carData[0].interior);
+    setVideo(carData[0].video_link)
 
 
   },[])
@@ -41,6 +46,8 @@ function CarDetails() {
   return (
     <div className='detail-wrap'>
         <HeroSection details={heroDetails} />
+        <Interior interiorImg={interior}/>
+        <VideoContainer videoLink="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-X-Interior-Carousel-1-Cinematic-Display-Desktop-Global.mp4"/>
         <ColorChange colorOptions={carColors} />
     </div>
   )
