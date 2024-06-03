@@ -3,12 +3,15 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-route
 import "./Vehicles.css";
 import ModelCard from "../ModelListCard/ModelCard";
 import { carList } from "../../Constents/carlist";
-import CarDetails from "../CarDetails/CarDetails";
+
 function Vehicles() {
   const [models, setModels] = useState(carList);
   const [allModels, setAllModels] = useState(carList);
+
+  //navigate is to navigate to different urls 
   const navigate = useNavigate();
 
+  //searchHandler function is to search the car from the car list.
   const searchHandler = (e) =>{
     const value = e.target.value.toLowerCase()
     const filteredModels = allModels.filter((model)=>{

@@ -1,7 +1,7 @@
 import React from "react";
 import './VideoContainer.css'
 function VideoContainer({videoLink}) {
-  // console.log(video);
+
   return (
     <div className="video-container">
       <video autoPlay muted width="100%" loop>
