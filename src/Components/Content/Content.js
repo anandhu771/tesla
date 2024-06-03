@@ -6,12 +6,11 @@ function Content(props) {
       <div className="car-description">
       {/* <div className="title">Cyber Truck</div> */}
       <div className="sub-title" style={{"textAlign":`${props.textalign}`}} >
-        <h1 data-aos={"fade-"+props.aosdir} data-aos-once="true" >{props.title}</h1>
-        
+        <h1 >{props.title}</h1>
 
         <br/>
+        <p > {props.content}</p>
 
-        <p data-aos={"fade-"+props.aosdir} data-aos-once="true" data-aos-delay="300"> {props.content}</p>
       </div>
         
         </div>

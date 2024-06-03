@@ -16,3 +16,16 @@ li>a:hover{
     color: snow;
     
 }
+
+@media (max-width:760px){
+    .footer{
+        flex-direction: column;
+        display: flex;
+    }
+
+    li,a{
+    
+ display: block;
+ margin-bottom: 10px;   
+    }
+}
