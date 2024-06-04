@@ -97,7 +97,7 @@
     color: #ffff;
     font-size: medium;
     padding: 10px;
-    transform: translateX(300px);
+    transform: translateX(350px);
     transition: all .5s ease-in;
 }
 
