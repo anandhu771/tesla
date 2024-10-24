@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.696e558f.css",
-    "main.js": "/static/js/main.68e53904.js",
+    "main.js": "/static/js/main.f9da8c0d.js",
     "static/js/453.99ef5e21.chunk.js": "/static/js/453.99ef5e21.chunk.js",
     "static/media/model-3-heroimg.jpeg": "/static/media/model-3-heroimg.5ccf6eab9a0897a8aa7e.jpeg",
     "static/media/interior-model-s.jpeg": "/static/media/interior-model-s.602aec9d150744bbe290.jpeg",
@@ -37,11 +37,11 @@
     "static/media/interior-cybertruck.avif": "/static/media/interior-cybertruck.31b6dc54212185502f19.avif",
     "index.html": "/index.html",
     "main.696e558f.css.map": "/static/css/main.696e558f.css.map",
-    "main.68e53904.js.map": "/static/js/main.68e53904.js.map",
+    "main.f9da8c0d.js.map": "/static/js/main.f9da8c0d.js.map",
     "453.99ef5e21.chunk.js.map": "/static/js/453.99ef5e21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.696e558f.css",
-    "static/js/main.68e53904.js"
+    "static/js/main.f9da8c0d.js"
   ]
 }
