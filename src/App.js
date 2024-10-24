@@ -14,7 +14,7 @@ function App() {
       <Router>
       <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/tesla" element={<Home/>} />
           <Route path="models-listing" element={<Vehicles />} />
           <Route path='/deatilView/:id' element={<CarDetails/>} />
         </Routes>
